@@ -1,0 +1,109 @@
+# # 1 Imprima uma mensagem de boas-vindas na tela.
+
+
+
+# msg  = 'Sejam bem vindo!!'
+# print(msg)
+
+
+
+# # 2 Declare uma variável booleana verdadeiro
+
+
+# b = True
+# print(type(b))
+
+
+
+# # com o valor True e imprima seu tipo
+# # 3 Imprima o resultado da multiplicação de dois números 
+# # decimais de sua escolha
+
+
+# n1  =  float(input('N1 - '))
+# n2  =  float(input('N2 - '))
+# print(n1 * n2)
+
+
+# # 4 Imprima o resultado da divisão (/)de dois números inteiros 
+# # de sua escolha.
+# n1  =  int(input('N1 - '))
+# n2  =  int(input('N2 - '))
+# print(n1/n2)
+
+
+# # 5 Imprima o resultado da subtração de dois números inteiros de sua 
+# # escolha
+
+
+# n1  =  int(input('N1 - '))
+# n2  =  int(input('N2 - '))
+# print(n1-n2)
+
+
+# # 6 Imprima o resultado da divisão (//)inteira de dois números inteiros 
+# # de sua escolha.
+
+
+# n1  =  int(input('N1 - '))
+# n2  =  int(input('N2 - '))
+# print(n1//n2)
+
+
+# # 7 Imprima o resultado da multiplicação de 4 números 
+# # decimais de sua escolha
+
+
+# n1 = float(input('n1: '))
+# n2 = float(input('n2: '))
+# n3 = float(input('n3: '))
+# n4 = float(input('n4: '))
+
+
+# print(n1 * n2  * n3 * n4)
+
+
+
+# # 8 Declare uma variável numero e atribua um número inteiro. Em seguida, 
+# # imprima o dobro desse número
+
+
+# numero = 10
+# print(numero  ** 2)
+
+
+
+# # 9 Crie um sistema de cadastro com as estruturas que vc já 
+# # conhece(Use apenas input, print e variavel)
+
+
+
+print('cadastro de usuário')
+
+
+nome  = input('Nome: ')
+idade = int(input('Idade: '))
+email = input('E-mail: ')
+endereco = input('Endereço: ')
+curso = input('Curso: ')
+whats = input('WhatsApp: ')
+cpf = input('Digite o CPG:  000.000.000-00')
+rg = input('Digite o RG: 00.000.000-00')
+
+
+print(f'''
+DADOS DO FORMULÁRIO: 
+      
+NOME - {nome}
+IDADE - {idade}
+E - MAIL - {email}
+ENDEREÇO - {endereco}
+CURSO - {curso}
+WHATSAPP - {whats}
+CPF - {cpf}
+RG - {rg}
+
+
+''')
+
+
