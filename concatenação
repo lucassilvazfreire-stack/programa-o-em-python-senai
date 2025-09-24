@@ -1,0 +1,15 @@
+# concatenação -  juntar dados - literal variavel 
+
+
+nome  =  input('Nome: ')
+idade = int(input('Idade: '))
+
+
+print('Ola',nome, 'sua idade é', idade)
+print('Olá' + ' ' +nome)
+print(f'Olá {nome}')
+print('Olá {}'.format(nome))
+print('Olá %s'%(nome))
+
+
+''')
