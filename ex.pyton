@@ -1,0 +1,82 @@
+# Utilize as 5 concatenações, teste todas 
+
+# 1 Imprima uma mensagem de boas-vindas na tela.
+print('Olá bom dia!')
+
+
+
+# 2 Declare uma variável booleana verdadeiro
+# com o valor True e imprima seu tipo
+
+boleano = True
+print(type(boleano))
+
+
+# 3 Imprima o resultado da multiplicação de dois 
+# números decimais de sua escolha
+
+n1 = float(input('numero1:'))
+n2 = float(input('numero2:'))
+
+print(n1 * n2)
+
+# 4 Imprima o resultado da divisão (/)de dois números 
+# inteiros de sua escolha.
+
+n1 = int(input('numero1:'))
+n2 = int(input('numero2:'))
+
+print(n1 / n2)
+
+# 5 Imprima o resultado da subtração de dois números 
+# inteiros de sua escolha
+
+n1 = int(input('numero1:'))
+n2 = int(input('numero2:'))
+
+print(n1 - n2)
+
+
+
+# 6 Imprima o resultado da divisão (//)inteira de dois números inteiros 
+# de sua escolha.
+
+
+n1 = int(input('numero1:'))
+n2 = int(input('numero2:'))
+
+print(n1 // n2)
+
+# 7 Imprima o resultado da multiplicação de 4 números 
+# decimais de sua escolha
+
+print(0.10 * 20.5 * 5.5  * 10.0)
+
+
+# 8 Declare uma variável numero e atribua um número inteiro. Em seguida, 
+# imprima o dobro desse número
+
+numero = 10
+dobro =  numero ** 2
+print(dobro)
+
+# 9 Crie um sistema de cadastro com as estruturas 
+# que vc já 
+# conhece(Use apenas input, print e variavel)
+
+
+nome = input('NOme: ')
+idade = int(input('Idade: '))
+endereco = input('Endereço:')
+curso =  input('Curso: ')
+
+print(f'''Dados:' 
+      
+      nome - {nome}
+      idade - {idade}
+      endereço - {endereco}
+      curso - {curso} 
+
+
+
+''')
