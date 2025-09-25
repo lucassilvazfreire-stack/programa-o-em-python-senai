@@ -39,6 +39,13 @@ documentos_cpfs  = (654654,46565,65454,5465465,5465456)
 # tupla.append(10)
 
 
+# variavel palavra  =  valor
+# lista = [] ou l =  list(range(1,11))
+# tupla = ()  ou t =  tuple(range(1,11))
+# conjun = {}  ou  c = set(range(1,11))
+# dicionario = {'a':10,'b':20}  ou  d = dict(a =10 , b = 20)
+
+
 print(tupla)
 
 
@@ -81,5 +88,6 @@ print(pessoa['livros'][2])
 
 dados = {10,20,30,30,30,30}
 print(dados)
+
 
 
